@@ -1,0 +1,18 @@
+{
+  "development":{
+    "user": "postgres",
+    "password": "postgres",
+    "host": "localhost",
+    "database": "fm_crud",
+    "port": 5432
+  },
+  "test":{
+    "user": "postgres",
+    "password": "postgres",
+    "host": "localhost",
+    "database": "fm_crud_test",
+    "port": 5432
+  },
+  "production":{}
+}
+

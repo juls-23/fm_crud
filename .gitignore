@@ -1,4 +1,4 @@
 .*
 !.gitignore
-/node modules/
+/node_modules/
 **/sandbox/

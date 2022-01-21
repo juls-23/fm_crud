@@ -4,9 +4,17 @@
   "description": "",
   "private": "true",
   "scripts": {
-    "start": "node ."
+    "start": "node ./server.js",
+    "start-dev": "nodemon ./server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
